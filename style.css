@@ -1,6 +1,38 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #f9cd7b;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: linear-gradient(135deg, #97e16e, #b9b4a0);
+}
+
+h2 {
+  text-shadow: 0 5px 5px #fff;
+	text-align: center;
+}
+
+#grupa {
+	text-align: center;
+}
+
+.dzivnieks {
+	text-align: center;
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+img {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 2px 2px 2px #fff;
+}
+
+p {
+	position: relative;
+	top: -45px;
+  left: 0;
+	width: 200px;
+	height: 20px;
+	color: white;
+	font-weight: bold;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
 }
